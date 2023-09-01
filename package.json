@@ -1,6 +1,6 @@
 {
   "name": "shared-array-buffer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Literally just the SharedArrayBuffer",
   "main": "./cjs/index.js",
   "scripts": {
@@ -8,7 +8,10 @@
     "cjs": "ascjs --no-default esm cjs",
     "test": "node test/index.js"
   },
-  "keywords": ["SharedArrayBuffer", "crossOriginIsolated"],
+  "keywords": [
+    "SharedArrayBuffer",
+    "crossOriginIsolated"
+  ],
   "author": "Andrea Giammarchi",
   "license": "ISC",
   "devDependencies": {
