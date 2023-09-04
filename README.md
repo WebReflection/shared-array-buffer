@@ -2,6 +2,8 @@
 
 Literally just the SharedArrayBuffer.
 
+**Warning** this module does not allow `postMessage` with *SharedArrayBuffer* as cross origin isolation is *still* required to do so.
+
 ```js
 import SharedArrayBuffer from 'shared-array-buffer';
 
