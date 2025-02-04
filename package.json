@@ -1,6 +1,6 @@
 {
   "name": "shared-array-buffer",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Literally just the SharedArrayBuffer",
   "main": "./cjs/index.js",
   "scripts": {
